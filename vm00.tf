@@ -31,6 +31,7 @@ resource "azurerm_subnet" "integrationsubnet" {
     name = "delegation"
     service_delegation {
       name = "Microsoft.Web/serverFarms"
+      
     }
   }
 }
