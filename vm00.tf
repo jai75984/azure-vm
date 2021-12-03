@@ -31,7 +31,6 @@ resource "azurerm_subnet" "integrationsubnet" {
     name = "delegation"
     service_delegation {
       name = "Microsoft.Web/serverFarms"
-      
     }
   }
 }
@@ -109,3 +108,4 @@ resource "azurerm_private_endpoint" "privateendpoint" {
     is_manual_connection = false
   }
 }
+hi Jay!
